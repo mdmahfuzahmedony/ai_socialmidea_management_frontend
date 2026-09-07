@@ -25,9 +25,9 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {/* আপনি চাইলে Navbar এবং Fotter এখানে রাখতে পারেন যাতে সব পেজে দেখায় */}
-        <Navbar />
+      
         {children}
-        <Fotter />
+     
       </body>
     </html>
   );
