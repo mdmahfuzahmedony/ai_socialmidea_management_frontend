@@ -3,20 +3,30 @@ export default function Testimonials() {
     <section className="section testimonials">
       <div className="wrap">
         <div className="section-head">
-          <div className="eyebrow" style={{ background: '#2A2850', borderColor: '#3A3860', color: '#C7C2F0' }}>
+          <div
+            className="eyebrow"
+            style={{
+              background: "#2A2850",
+              borderColor: "#3A3860",
+              color: "#C7C2F0",
+            }}
+          >
             <span className="dot" />
-            From teams using Loopline
+            From teams using HeyBazz
           </div>
           <h2>Set it up once, it keeps running</h2>
-          <p>Small teams and busy solo creators on what changed after switching over.</p>
+          <p>
+            Small teams and busy solo creators on what changed after switching
+            over.
+          </p>
         </div>
 
         <div className="t-grid">
           <div className="t-card">
             <div className="stars">★★★★★</div>
             <p className="t-quote">
-              "I connected our three pages and stopped thinking about
-              posting entirely. The banners actually match our brand."
+              "I connected our three pages and stopped thinking about posting
+              entirely. The banners actually match our brand."
             </p>
             <div className="t-person">
               <div className="t-avatar" />
@@ -30,8 +40,8 @@ export default function Testimonials() {
           <div className="t-card">
             <div className="stars">★★★★★</div>
             <p className="t-quote">
-              "I run five accounts alone. Loopline writes, designs and
-              posts — I only step in to check the weekly report."
+              "I run five accounts alone. HeyBazz writes, designs and posts — I
+              only step in to check the weekly report."
             </p>
             <div className="t-person">
               <div className="t-avatar" />
@@ -45,8 +55,8 @@ export default function Testimonials() {
           <div className="t-card">
             <div className="stars">★★★★★</div>
             <p className="t-quote">
-              "The SEO titles alone brought in more search traffic than
-              our old captions ever did."
+              "The SEO titles alone brought in more search traffic than our old
+              captions ever did."
             </p>
             <div className="t-person">
               <div className="t-avatar" />

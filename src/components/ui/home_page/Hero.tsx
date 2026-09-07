@@ -15,10 +15,10 @@ export default function Hero() {
             <em>and posts for you.</em>
           </h1>
           <p className="lede">
-            Loopline connects to your social accounts, writes SEO-friendly
-            titles and captions, generates banner images, publishes on your
-            schedule, and reports back on what worked — all without you
-            opening a design tool.
+            HeyBazz connects to your social accounts, writes SEO-friendly titles
+            and captions, generates banner images, publishes on your schedule,
+            and reports back on what worked — all without you opening a design
+            tool.
           </p>
           <div className="hero-ctas">
             <a href="/signup" className="btn btn-primary">
@@ -42,12 +42,15 @@ export default function Hero() {
         <div className="stack">
           <div className="post-card card-1">
             <div className="p-head">
-              <div className="p-avatar" style={{ background: '#FFD9E4' }} />
+              <div className="p-avatar" style={{ background: "#FFD9E4" }} />
               <div>
                 <div className="p-name">Nourish Kitchen</div>
                 <div className="p-handle">@nourishco</div>
               </div>
-              <div className="p-platform" style={{ background: '#E7F7F3', color: 'var(--mint)' }}>
+              <div
+                className="p-platform"
+                style={{ background: "#E7F7F3", color: "var(--mint)" }}
+              >
                 Facebook
               </div>
             </div>
@@ -63,12 +66,15 @@ export default function Hero() {
 
           <div className="post-card card-2">
             <div className="p-head">
-              <div className="p-avatar" style={{ background: '#DCD3F9' }} />
+              <div className="p-avatar" style={{ background: "#DCD3F9" }} />
               <div>
                 <div className="p-name">Fielder Studio</div>
                 <div className="p-handle">@fielder.studio</div>
               </div>
-              <div className="p-platform" style={{ background: '#EDEAFB', color: 'var(--violet-deep)' }}>
+              <div
+                className="p-platform"
+                style={{ background: "#EDEAFB", color: "var(--violet-deep)" }}
+              >
                 LinkedIn
               </div>
             </div>
@@ -84,12 +90,15 @@ export default function Hero() {
 
           <div className="post-card card-3">
             <div className="p-head">
-              <div className="p-avatar" style={{ background: '#FFE3B0' }} />
+              <div className="p-avatar" style={{ background: "#FFE3B0" }} />
               <div>
                 <div className="p-name">Marlow Coffee</div>
                 <div className="p-handle">@marlow.coffee</div>
               </div>
-              <div className="p-platform" style={{ background: '#FEECEE', color: '#C23558' }}>
+              <div
+                className="p-platform"
+                style={{ background: "#FEECEE", color: "#C23558" }}
+              >
                 Instagram
               </div>
             </div>
@@ -99,7 +108,10 @@ export default function Hero() {
             </div>
             <div className="p-footer">
               <span className="p-time">Generating now</span>
-              <span className="p-status" style={{ background: '#EDEAFB', color: 'var(--violet-deep)' }}>
+              <span
+                className="p-status"
+                style={{ background: "#EDEAFB", color: "var(--violet-deep)" }}
+              >
                 AI working
               </span>
             </div>

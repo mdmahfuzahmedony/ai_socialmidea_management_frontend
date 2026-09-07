@@ -1,19 +1,16 @@
-
 export default function AboutPage() {
   return (
     <>
-      
-
       <section className="page-hero wrap">
-        <div className="eyebrow" style={{ margin: '0 auto 20px' }}>
+        <div className="eyebrow" style={{ margin: "0 auto 20px" }}>
           <span className="dot" />
-          Why we built Loopline
+          Why we built HeyBazz
         </div>
         <h1>Social media shouldn&apos;t need a full-time team</h1>
         <p>
-          Most small teams and solo creators manage social media on top of
-          their real job. Loopline exists so a page gets posted, designed and
-          reported on without anyone opening five different tabs.
+          Most small teams and solo creators manage social media on top of their
+          real job. HeyBazz exists so a page gets posted, designed and reported
+          on without anyone opening five different tabs.
         </p>
       </section>
 
@@ -32,17 +29,26 @@ export default function AboutPage() {
             <div className="value-card">
               <div className="num">01</div>
               <h3>Connect once, forget it</h3>
-              <p>Adding a page shouldn&apos;t mean a new daily chore. Once it&apos;s connected, Loopline keeps it running.</p>
+              <p>
+                Adding a page shouldn&apos;t mean a new daily chore. Once
+                it&apos;s connected, HeyBazz keeps it running.
+              </p>
             </div>
             <div className="value-card">
               <div className="num">02</div>
               <h3>Write like the brand, not a robot</h3>
-              <p>AI output should read like someone who actually knows the brand wrote it — never generic.</p>
+              <p>
+                AI output should read like someone who actually knows the brand
+                wrote it — never generic.
+              </p>
             </div>
             <div className="value-card">
               <div className="num">03</div>
               <h3>Reports you can actually use</h3>
-              <p>Numbers mean nothing without context. We explain what happened in plain sentences.</p>
+              <p>
+                Numbers mean nothing without context. We explain what happened
+                in plain sentences.
+              </p>
             </div>
           </div>
         </div>
@@ -56,7 +62,10 @@ export default function AboutPage() {
               The team
             </div>
             <h2>A small team building for small teams</h2>
-            <p>We manage our own accounts on Loopline — every feature ships because we needed it first.</p>
+            <p>
+              We manage our own accounts on HeyBazz — every feature ships
+              because we needed it first.
+            </p>
           </div>
 
           <div className="team-grid">
@@ -93,8 +102,6 @@ export default function AboutPage() {
           </a>
         </div>
       </section>
-
-     
     </>
   );
 }

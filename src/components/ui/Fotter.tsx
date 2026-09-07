@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -8,11 +8,11 @@ export default function Footer() {
           <div className="foot-brand">
             <div className="logo">
               <div className="logo-mark" />
-              Loopline
+              HeyBazz
             </div>
             <p>
               AI-powered social media management — connect your accounts and let
-              Loopline write, design and publish your posts for you.
+              HeyBazz write, design and publish your posts for you.
             </p>
           </div>
 
@@ -32,14 +32,14 @@ export default function Footer() {
 
           <div className="foot-col">
             <h4>Resources</h4>
-            <Link href="/#">Help center</Link>
+            <Link href="/docs">Docs</Link>
             <Link href="/#">Blog</Link>
             <Link href="/#">Status</Link>
           </div>
         </div>
 
         <div className="foot-bottom">
-          <span>© 2026 Loopline. All rights reserved.</span>
+          <span>© 2026 HeyBazz. All rights reserved.</span>
           <span>Made for teams juggling too many accounts.</span>
         </div>
       </div>
